@@ -3,7 +3,7 @@
          xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Payment:etc/payment.xsd">
     <groups>
         <group id="paypal">
-            <method name="dzinehub_paypalrest"/>
+            <method name="mohan_paypalrest"/>
         </group>
     </groups>
 </payment>

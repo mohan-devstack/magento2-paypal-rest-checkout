@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Dzinehub\PaypalRest\Model;
+namespace Mohan\PaypalRest\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Encryption\EncryptorInterface;
@@ -13,9 +13,9 @@ class Client
     private const LIVE_BASE_URL    = 'https://api-m.paypal.com';
     private const SANDBOX_BASE_URL = 'https://api-m.sandbox.paypal.com';
 
-    private const CONFIG_CLIENT_ID     = 'dz_paypalrest/api/client_id';
-    private const CONFIG_CLIENT_SECRET = 'dz_paypalrest/api/client_secret';
-    private const CONFIG_SANDBOX       = 'dz_paypalrest/api/sandbox';
+    private const CONFIG_CLIENT_ID     = 'mohan_paypalrest/api/client_id';
+    private const CONFIG_CLIENT_SECRET = 'mohan_paypalrest/api/client_secret';
+    private const CONFIG_SANDBOX       = 'mohan_paypalrest/api/sandbox';
 
     private const TIMEOUT = 30;
 
@@ -49,7 +49,7 @@ class Client
         if ($clientId === '' || $clientSecret === '') {
             throw new \RuntimeException(
                 'PayPal REST API credentials are not configured. '
-                . 'Go to Dzinehub > PayPal REST Checkout > API Credentials in Magento Admin.'
+                . 'Go to Mohan > PayPal REST Checkout > API Credentials in Magento Admin.'
             );
         }
 

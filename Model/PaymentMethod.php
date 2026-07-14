@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Dzinehub\PaypalRest\Model;
+namespace Mohan\PaypalRest\Model;
 
 use Magento\Framework\Api\AttributeValueFactory;
 use Magento\Framework\Api\ExtensionAttributesFactory;
@@ -19,7 +19,7 @@ use Magento\Payment\Model\Method\Logger;
 
 class PaymentMethod extends AbstractMethod
 {
-    public const CODE = 'dzinehub_paypalrest';
+    public const CODE = 'mohan_paypalrest';
 
     protected $_code                    = self::CODE;
     protected $_isGateway               = true;
@@ -60,7 +60,7 @@ class PaymentMethod extends AbstractMethod
      */
     public function getOrderPlaceRedirectUrl(): string
     {
-        return $this->urlBuilder->getUrl('dzinehubpaypalrest/express/start');
+        return $this->urlBuilder->getUrl('mohanpaypalrest/express/start');
     }
 
     /**

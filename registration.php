@@ -3,4 +3,4 @@ declare(strict_types=1);
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Dzinehub_PaypalRest', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Mohan_PaypalRest', __DIR__);

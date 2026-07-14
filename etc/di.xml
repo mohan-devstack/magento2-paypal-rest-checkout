@@ -5,7 +5,7 @@
         Give Client its own Curl instance (shared="false") so our timeout and
         header state never bleeds into other modules that inject the same class.
     -->
-    <type name="Dzinehub\PaypalRest\Model\Client">
+    <type name="Mohan\PaypalRest\Model\Client">
         <arguments>
             <argument name="httpClient" xsi:type="object" shared="false">Magento\Framework\HTTP\Client\Curl</argument>
         </arguments>

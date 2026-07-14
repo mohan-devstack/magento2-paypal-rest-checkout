@@ -10,8 +10,8 @@
     "authors": [
         {
             "name": "Mohan Prabhu",
-            "email": "mohan@dzine-hub.com",
-            "homepage": "https://dzine-hub.com",
+            "email": "mohandevstack@gmail.com",
+            "homepage": "https://github.com/mohan-prabhu",
             "role": "Developer"
         }
     ],
@@ -36,7 +36,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Dzinehub\\PaypalRest\\": ""
+            "Mohan\\PaypalRest\\": ""
         }
     }
 }

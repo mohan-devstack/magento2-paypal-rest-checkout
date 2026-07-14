@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Dzinehub\PaypalRest\Model;
+namespace Mohan\PaypalRest\Model;
 
 class TransactionService
 {

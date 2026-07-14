@@ -2,8 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="dzinehubpaypalrest" frontName="dzinehubpaypalrest">
-            <module name="Dzinehub_PaypalRest"/>
+        <route id="mohanpaypalrest" frontName="mohanpaypalrest">
+            <module name="Mohan_PaypalRest"/>
         </route>
     </router>
 </config>

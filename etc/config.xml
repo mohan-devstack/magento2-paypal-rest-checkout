@@ -3,18 +3,18 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <payment>
-            <dzinehub_paypalrest>
+            <mohan_paypalrest>
                 <active>0</active>
-                <model>Dzinehub\PaypalRest\Model\PaymentMethod</model>
+                <model>Mohan\PaypalRest\Model\PaymentMethod</model>
                 <title>PayPal</title>
                 <order_status>pending</order_status>
                 <sort_order>10</sort_order>
-            </dzinehub_paypalrest>
+            </mohan_paypalrest>
         </payment>
-        <dz_paypalrest>
+        <mohan_paypalrest>
             <api>
                 <sandbox>0</sandbox>
             </api>
-        </dz_paypalrest>
+        </mohan_paypalrest>
     </default>
 </config>

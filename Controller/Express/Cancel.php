@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Dzinehub\PaypalRest\Controller\Express;
+namespace Mohan\PaypalRest\Controller\Express;
 
 use Magento\Checkout\Model\Session as CheckoutSession;
 use Magento\Framework\App\Action\HttpGetActionInterface;

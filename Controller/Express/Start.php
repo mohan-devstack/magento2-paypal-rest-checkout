@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Dzinehub\PaypalRest\Controller\Express;
+namespace Mohan\PaypalRest\Controller\Express;
 
-use Dzinehub\PaypalRest\Model\Client;
+use Mohan\PaypalRest\Model\Client;
 use Magento\Checkout\Model\Session as CheckoutSession;
 use Magento\Framework\App\Action\HttpGetActionInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
 
 class Start implements HttpGetActionInterface
 {
-    private const SANDBOX_CONFIG = 'dz_paypalrest/api/sandbox';
+    private const SANDBOX_CONFIG = 'mohan_paypalrest/api/sandbox';
 
     public function __construct(
         private readonly CheckoutSession $checkoutSession,
@@ -54,8 +54,8 @@ class Start implements HttpGetActionInterface
                     ],
                 ]],
                 'application_context' => [
-                    'return_url'          => $this->urlBuilder->getUrl('dzinehubpaypalrest/express/returnaction'),
-                    'cancel_url'          => $this->urlBuilder->getUrl('dzinehubpaypalrest/express/cancel'),
+                    'return_url'          => $this->urlBuilder->getUrl('mohanpaypalrest/express/returnaction'),
+                    'cancel_url'          => $this->urlBuilder->getUrl('mohanpaypalrest/express/cancel'),
                     'user_action'         => 'PAY_NOW',
                     'shipping_preference' => 'NO_SHIPPING',
                 ],

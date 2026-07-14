@@ -23,25 +23,25 @@ A standalone PayPal REST Orders v2 payment module for Magento 2. Uses only the m
 ### Via Composer (recommended)
 
 ```bash
-composer require dzinehub/magento2-paypal-rest-checkout
-php bin/magento module:enable Dzinehub_PaypalRest
+composer require mohan/magento2-paypal-rest-checkout
+php bin/magento module:enable Mohan_PaypalRest
 php bin/magento setup:upgrade
 php bin/magento cache:clean
 ```
 
 ### Manual
 
-1. Copy the module to `app/code/Dzinehub/PaypalRest/`
+1. Copy the module to `app/code/Mohan/PaypalRest/`
 2. Run:
    ```bash
-   php bin/magento module:enable Dzinehub_PaypalRest
+   php bin/magento module:enable Mohan_PaypalRest
    php bin/magento setup:upgrade
    php bin/magento cache:clean
    ```
 
 ## Configuration
 
-**Stores > Configuration > Dzinehub > PayPal REST Checkout**
+**Stores > Configuration > Mohan > PayPal REST Checkout**
 
 | Field | Description |
 |-------|-------------|
@@ -68,8 +68,7 @@ Full and partial refunds are processed via **Sales > Orders > Credit Memo** in t
 
 ## Support
 
-- [Dzine Hub](https://dzine-hub.com)
-- Email: mohan@dzine-hub.com
+- Email: mohandevstack@gmail.com
 
 ## License
 
