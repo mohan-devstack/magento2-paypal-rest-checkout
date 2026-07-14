@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <dzinehub_paypalrest>
+                <active>0</active>
+                <model>Dzinehub\PaypalRest\Model\PaymentMethod</model>
+                <title>PayPal</title>
+                <order_status>pending</order_status>
+                <sort_order>10</sort_order>
+            </dzinehub_paypalrest>
+        </payment>
+        <dz_paypalrest>
+            <api>
+                <sandbox>0</sandbox>
+            </api>
+        </dz_paypalrest>
+    </default>
+</config>

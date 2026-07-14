@@ -1,0 +1,42 @@
+{
+    "name": "mohan/magento2-paypal-rest-checkout",
+    "description": "Standalone PayPal REST Orders v2 payment integration for Magento 2. No Magento_Paypal or SOAP/NVP dependency. Server-side redirect checkout with capture, refund, and admin transaction support.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Mohan Prabhu",
+            "email": "mohan@dzine-hub.com",
+            "homepage": "https://dzine-hub.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "magento2",
+        "magento",
+        "paypal",
+        "paypal-rest",
+        "payment",
+        "checkout"
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0",
+        "magento/framework": "^103.0",
+        "magento/module-checkout": "^100.0",
+        "magento/module-payment": "^100.0",
+        "magento/module-sales": "^100.0",
+        "magento/module-store": "^101.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dzinehub\\PaypalRest\\": ""
+        }
+    }
+}
