@@ -1,5 +1,5 @@
 {
-    "name": "mohan/magento2-paypal-rest-checkout",
+    "name": "mohan-devstack/magento2-paypal-rest-checkout",
     "description": "Standalone PayPal REST Orders v2 payment integration for Magento 2. No Magento_Paypal or SOAP/NVP dependency. Server-side redirect checkout with capture, refund, and admin transaction support.",
     "type": "magento2-module",
     "version": "1.0.0",
